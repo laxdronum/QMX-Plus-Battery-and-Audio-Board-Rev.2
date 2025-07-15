@@ -22,12 +22,13 @@ This is the second revision of the custom battery and audio board designed for t
 
 ## Images
 
-- Assembled Front
-- Assembled With Speaker
-- Top View
-- Bottom View
-- Schematic
-- 3D Render Front and Back
+- Assembled Front ![Assembled Front](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/Assembled%20Front.jpg)
+- Assembled Back ![Assembled Back](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/Assembled%20Back.jpg)
+- Assembled Side ![Assembled Side](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/Assembled%20Side.jpg)
+- Schematic ![Schematic](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/QMX%2B%20Battery%20%2B%20Audio%20Board%20Rev.%202%20Schematic.jpg)
+- MP2315 3D View ![MP2315 3D View](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/MP2315%203D.jpg)
+- 3D Front ![3D Front](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/3D%20Front.jpg)
+- 3D Back ![3D Back](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/3D%20Back.jpg)
 
 ## Warning and Disclaimer
 

@@ -134,3 +134,33 @@ Assembly is finished. You must test the board with a multimeter according to the
 ![Finished 1 Photo](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/Assembly/Finished%201.jpg)
 
 ![Finished 2 Photo](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/Assembly/Finished%202.jpg)
+
+---
+
+## Audio Calibration
+
+- Set radio volume to minimum.
+- Adjust the LM386 board's variable resistor until audio is barely audible.
+- Use radio's volume knob for future control.
+
+--- 
+
+## Drilling a Hole in the Backplate
+
+This step can be a bit tricky. First, you need to mount the board on top of the mainboard and secure it using 11 mm nylon hex spacers. Then, mark the backplate accordingly for drilling. Screwing the board in place ensures proper alignment and helps prevent mistakes.
+
+On the first radio where I installed my board, I made the mistake of not aligning it properly — the charging port ended up slightly higher than the hole. Fortunately, it still works.
+
+---
+
+## Adding a Speaker
+
+For the speaker, you can use a 0.5W or 1W 8-ohm speaker. Small laptop speakers matching those values should work as well. I attached the speaker on top of the BMS using double-sided foam tape. When the enclosure is screwed down, the top cover presses against the speaker, holding it securely in place.
+
+---
+
+**If you have any questions, feel free to send me an email**
+**mnecatianky@gmail.com**
+
+**Necati 73.**
+**ta7mna.com**

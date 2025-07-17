@@ -125,3 +125,10 @@ Soldering female headers to the battery board is recommended. This helps prevent
 
 ---
 
+## **Step 10 - Assembly Finished**
+
+Assembly is finished. You must test the board with a multimeter according to the schematic.
+
+!\[Finished 1 Photo]
+
+!\[Finished 2 Photo]

@@ -84,9 +84,9 @@ If you look closely, you'll see a few pads behind it. The ADJ pad is shorted by 
 
 ![Step 6.1 Photo](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/Assembly/Step%206.1.jpg)
 
-### **Step 6.2 – Cutting the Pad**
+### **Step 6.2 – Cutting the Pad and Soldering the 9V Pad**
 
-You can cut the pad with an X-Acto knife. You need to go a little bit deep to sever the copper trace. Test it with a multimeter after cutting.
+You can cut the pad with an X-Acto knife. You need to go a little bit deep to sever the copper trace. Test it with a multimeter after cutting. After cutting, you must short the 9V pad with solder behind the converter.
 
 ![Step 6.2 Photo](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/Assembly/Step%206.2.jpg)
 
@@ -98,7 +98,7 @@ You must solder the header pins in reverse. The longer pins must protrude from t
 
 ### **Step 6.4 – Soldering the Module onto the Board**
 
-This is the easiest step. Trim the protruding headers of the converter module and solder it in place.
+This is the easiest step. Trim the protruding headers of the converter module and solder it in place. There is a place for either 100nF THT or 0805 SMD ceramic capacitor near the JP101. The capacitor is optional.
 **Never solder the DC-DC converter and short the J4 pads at the same time.**
 
 ![Step 6.4 Photo](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/Assembly/Step%206.4.jpg)

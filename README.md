@@ -4,6 +4,8 @@ This is the second revision of the custom battery and audio board designed for t
 
 ### Review by Colin MM0OPX (Video): [This SIMPLE Mod Makes the QMX+ Even Better](https://www.youtube.com/watch?v=ZL12OHniudg)
 
+---
+
 ## Features
 - Integrated battery power supply
 - Compatible with both 9V and 12V QMX+ transceivers
@@ -32,7 +34,7 @@ This is the second revision of the custom battery and audio board designed for t
 
 **Always power off your QMX+ before connecting and disconnecting DC power. Connecting and disconnecting DC power while the board is installed can cause voltage transients and may damage the mainboard.**
 
-**This version is compatible with both 9V and 12V QMX+ units. The onboard MP2315 step-down converter ensures safe operation with 9V models. You must adjust the MP2315 output voltage correctly to 9V before first use. You must not solder the DC-DC converter if you want to use the board 12V**
+**This version is compatible with both 9V and 12V QMX+ units. You must adjust the MP2315 output voltage correctly to 9V before first use. You must not solder the DC-DC converter if you want to use the board 12V.**
 
 **Use at your own risk. Incorrect wiring or voltage configuration can damage your radio. I am not responsible for any damage, injury, or consequences resulting from use or misuse of this board.**
 
@@ -53,17 +55,23 @@ This is the second revision of the custom battery and audio board designed for t
 - **MP2315 DC-DC Buck Converter**
 - **1x4 90 Degree Male Header**
 
-## Assembly, Calibration and Notes
+## Assembly and Calibration
 
 ### Assembly
 
-Check the ASSEMBLY.md file.
+Check the ASSEMBLY.md file. Everything is same as Rev. 1.x if you are building it for 12V.
 
 ### Audio Calibration
 
 After assembly and testing that your radio works you must calibrate the audio.
 
 To calibrate the audio you must first lower the volume as down as you can using the volume knob of the radio. Then you must turn the variable resistor found on the audio board until you can hear the audio coming from the speaker barely. Audio is calibrated,  you should use the volume knob from now on.
+
+## Notes on RFI
+
+Since there is an RFI source inside the enclosure, some noise may occur in the 9V models. However, the 12V versions are free from battery board-induced noise, except during charging. Please keep this in mind when using it with 9V models.
+
+> **In our tests with the 9V regulator, we observed that it caused QRM at certain frequencies. However, this noise was often at a lower level than QMX’s own birdies and was not disturbing. When we connected an antenna to the QMX and listened, the noise remained below the noise level coming from the antenna.**
 
 ## Notes
 
@@ -76,10 +84,7 @@ To calibrate the audio you must first lower the volume as down as you can using 
 - [QRP-Labs Website](https://www.qrp-labs.com)
 - [QRP-Labs QMX+ Transceiver](https://qrp-labs.com/qmxp.html)
 
-## Special Thanks
+### Special thanks to Hans Summers (G0UPL) for making this project possible.
 
-Special thanks to Hans Summers (G0UPL) for making this project possible.
 
----
-
-**TA7MNA – laxdronum – GITRAD Radio Club YM7KK**
+### TA7MNA – laxdronum – GITRAD Radio Club YM7KK

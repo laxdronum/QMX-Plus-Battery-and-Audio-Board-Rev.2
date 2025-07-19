@@ -84,11 +84,13 @@ If you look closely, you'll see a few pads behind it. The ADJ pad is shorted by 
 
 ![Step 6.1 Photo](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/Assembly/Step%206.1.jpg)
 
-### **Step 6.2 – Cutting the Pad and Soldering the 9V Pad**
+### **Step 6.2 – Cutting the ADJ Pad and Soldering the 9V Pad**
 
 You can cut the pad with an X-Acto knife. You need to go a little bit deep to sever the copper trace. Test it with a multimeter after cutting. After cutting, you must short the 9V pad with solder behind the converter.
 
 ![Step 6.2 Photo](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/Assembly/Step%206.2.jpg)
+
+![Step 6.2 Photo](https://github.com/laxdronum/QMX-Plus-Battery-and-Audio-Board-Rev.2/blob/main/Images/Assembly/9V%20soldered.jpg)
 
 ### **Step 6.3 – Soldering the Headers**
 
@@ -158,6 +160,14 @@ On the first radio where I installed my board, I made the mistake of not alignin
 For the speaker, you can use a 0.5W or 1W 8-ohm speaker. Small laptop speakers matching those values should work as well. I attached the speaker on top of the BMS using double-sided foam tape. When the enclosure is screwed down, the top cover presses against the speaker, holding it securely in place.
 
 ---
+
+## Notes on RFI
+
+Since there is an RFI source inside the enclosure, some noise may occur in the 9V models. However, the 12V versions are free from battery board-induced noise, except during charging. Please keep this in mind when using it with 9V models.
+
+> **In our tests with the 9V regulator, we observed that it caused QRM at certain frequencies. However, this noise was often at a lower level than QMX’s own birdies and was not disturbing. When we connected an antenna to the QMX and listened, the noise remained below the noise level coming from the antenna.**
+
+
 
 **If you have any questions, feel free to send me an email**
 **mnecatianky@gmail.com**

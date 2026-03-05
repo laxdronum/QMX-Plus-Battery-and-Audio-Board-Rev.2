@@ -7,6 +7,7 @@ This is the second revision of the custom battery and audio board designed for t
 ---
 
 ## Features
+
 - Integrated battery power supply
 - Compatible with both 9V and 12V QMX+ transceivers
 - MP2315 adjustable DC-DC converter onboard
@@ -18,7 +19,9 @@ This is the second revision of the custom battery and audio board designed for t
 
 ## Revision History - Latest Revision: Rev. 2.0
 
-* July 2025 Rev. 2.0 : Added support for 9V QMX+ by integrating an MP2315 buck converter to step down battery voltage. Minor layout and silkscreen adjustments made.
+- July 2025 Rev. 2.0 : Added support for 9V QMX+ by integrating an MP2315 buck converter to step down battery voltage. Minor layout and silkscreen adjustments made.
+
+- March 2026 Rev. 2.1 : The text 'Made by' has been updated to 'Designed by' to comply with JLCPCB's policies.
 
 ## Images
 
@@ -44,14 +47,16 @@ This is the second revision of the custom battery and audio board designed for t
 
 - **3x 1x18650 Li-ion Batteries:** I used 2900mAh INR18650 cells. There must be three 1x18650 battery holders.
 - **3S 1A Multi Cell Charger Board (DDTCCRUB):** I used 1A and 2A versions. 3A might be a problem due to heating.
-- **1x 3S 20A BMS Board** 
+- **1x 3S 20A BMS Board**
 - **1x LM386 Audio Amplifier Breakout Board:** You have to desolder the pins.
 - **1x 5x20mm 3A Fuse:** For further protection.
 - **1x 5x20mm Fuse Holder:** Compatible with most 2 pin 5x20mm fuse holders. It must have 22.86mm (0.9in) or 15.24mm (0.6in) pin pitch.
 - **2x 1K 1/4W THT or 0805 SMD Resistors:** Solder as you like SMD or THT.
 - **8 Ohm Speaker:** Necessary for audio output. Use the screw terminals on the audio amplifier board. Small laptop speakers should work.
 - **1x 2x3, 1x 2x2, 1x 1x5 2.54mm Female and Male Pin Headers:** To mount the PCB directly on the main board.
+
 #### For 9V:
+
 - **MP2315 DC-DC Buck Converter**
 - **1x4 90 Degree Male Header**
 
@@ -65,7 +70,7 @@ Check the ASSEMBLY.md file. Everything is same as Rev. 1.x if you are building i
 
 After assembly and testing that your radio works you must calibrate the audio.
 
-To calibrate the audio you must first lower the volume as down as you can using the volume knob of the radio. Then you must turn the variable resistor found on the audio board until you can hear the audio coming from the speaker barely. Audio is calibrated,  you should use the volume knob from now on.
+To calibrate the audio you must first lower the volume as down as you can using the volume knob of the radio. Then you must turn the variable resistor found on the audio board until you can hear the audio coming from the speaker barely. Audio is calibrated, you should use the volume knob from now on.
 
 ## Notes on RFI
 
@@ -75,9 +80,9 @@ Since there is an RFI source inside the enclosure, some noise may occur in the 9
 
 ## Notes
 
-* Some power adapters are not working with this battery charger module (DDTCCRUB) because it lacks power delivery (PD) technology. If your charger doesn't work try another charger. 
-* If you power the radio with DC jack while battery pack is installed, QMX+ will disconnect the batteries from radio. You can only charge the batteries from the Type-C port. QMX+'s own Type-C port is only for data.
-* The 8mm x 8mm square behind the board is for JLCPCB order number. Select the **'2D Barcode' option and specify position** while ordering.
+- Some power adapters are not working with this battery charger module (DDTCCRUB) because it lacks power delivery (PD) technology. If your charger doesn't work try another charger.
+- If you power the radio with DC jack while battery pack is installed, QMX+ will disconnect the batteries from radio. You can only charge the batteries from the Type-C port. QMX+'s own Type-C port is only for data.
+- The 8mm x 8mm square behind the board is for JLCPCB order number. Select the **'2D Barcode' option and specify position** while ordering.
 
 ## Links
 
@@ -85,6 +90,5 @@ Since there is an RFI source inside the enclosure, some noise may occur in the 9
 - [QRP-Labs QMX+ Transceiver](https://qrp-labs.com/qmxp.html)
 
 ### Special thanks to Hans Summers (G0UPL) for making this project possible.
-
 
 ### TA7MNA – laxdronum – GITRAD Radio Club YM7KK
